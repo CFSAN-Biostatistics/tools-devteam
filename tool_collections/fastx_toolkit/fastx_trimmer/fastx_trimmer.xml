@@ -13,7 +13,7 @@ zcat -f < '$input' | fastx_trimmer -v -f $first -l $last -o '$output'
     </command>
 
     <inputs>
-        <param format="fasta,fastqsolexa,fastqsanger" name="input" type="data" label="Library to clip" />
+        <param format="fasta,fastq,fastqsolexa,fastqsanger" name="input" type="data" label="Library to clip" />
 
         <param name="first" type="integer" value="1">
             <label>First base to keep</label>
